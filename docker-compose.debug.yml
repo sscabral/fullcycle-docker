@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  fullcycle:
+    image: fullcycle
+    build:
+      context: .
+      dockerfile: ./Dockerfile
