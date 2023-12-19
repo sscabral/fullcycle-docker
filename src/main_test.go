@@ -4,6 +4,7 @@ import (
 	"testing"
 )
 
+// TestHelloWorld is a unit test for the HelloWorld function.
 func TestHelloWorld(t *testing.T) {
 	result := HelloWorld()
 	expected := "Full Cycle Rocks!!"
@@ -13,6 +14,7 @@ func TestHelloWorld(t *testing.T) {
 	}
 }
 
+// HelloWorld is used as a test parameter, returning the string "Full Cycle Rocks!!".
 func HelloWorld() string {
 	return "Full Cycle Rocks!!"
 }
